@@ -1,0 +1,78 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* General body styling */
+body {
+    font-family: 'Montserrat', sans-serif; /* Using Montserrat font */
+    background: linear-gradient(to right, #f0f4f8, #e0e0e0); /* Light gradient background */
+    color: #333; /* Dark grey text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Progress page container */
+.progress-page-container {
+    width: 90%;
+    max-width: 600px; /* Max width for the container */
+    margin: 50px auto; /* Center the container */
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.95); /* Slightly transparent white */
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+/* Heading styling */
+.progress-page-container h2 {
+    text-align: center;
+    color: #00796b; /* Teal color for heading */
+    font-size: 28px; /* Larger font size for emphasis */
+}
+
+/* Progress list styling */
+.progress-list {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+}
+
+/* Individual progress item styling */
+.progress-item {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space out items */
+    align-items: center; /* Center items vertically */
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #f5f5f5; /* Light grey background for items */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.progress-item:hover {
+    background-color: #e0e0e0; /* Darker grey on hover */
+}
+
+/* Booking date styling */
+.booking-date {
+    color: #204f30; /* Medium grey for the date text */
+}
+
+/* Status label styling */
+label {
+    font-weight: bold; /* Bold label for visibility */
+}
+
+/* Select input styling */
+select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid #00796b; /* Teal border for select input */
+    background-color: white; /* White background for select input */
+}
+
+select:hover {
+    border-color: #004d40; /* Darker teal on hover */
+}
+
+select:focus {
+    outline: none; /* Remove default outline on focus */
+    border-color: #004d40; /* Darker teal on focus */
+}
